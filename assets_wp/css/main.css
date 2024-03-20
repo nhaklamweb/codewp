@@ -1,0 +1,27 @@
+:root {
+    --main: #1B5BD7;
+    --blue_second: #168bef;
+    --fff: #fff;
+    --333: #333;
+    --color-light:#8E98A4;
+    --color-dark: #453838;
+}
+.pll-parent-menu-item .sub-menu{
+    padding-bottom: 0 !important;
+    padding: 10px;
+    max-width: 176px !important;
+    width: 176px !important;
+    min-width: 176px;
+    border-radius: 4px;
+    box-shadow: none !important;
+    border: 1px solid #1b5bd754 !important;
+}
+.pll-parent-menu-item::before, .pll-parent-menu-item::after{
+    display: none !important;
+}
+.pll-parent-menu-item .sub-menu a{
+    font-size: 14px;
+}
+.absolute-footer{
+    display: none;
+}
